@@ -1,13 +1,15 @@
-module.exports={
-    aliases:{
-        rs:'react-component',
-        s:'store',
-        i:'index',
+module.exports = {
+    aliases: {
+        rs: 'react-component',
+        s: 'store',
+        i: 'index',
     },
-    map:{
-       'test':{
-            file1:'file',
-           file2:'file',
-       }
+    map: {
+        'test': {
+            test: {template:'file',constName:'GLOBAL_TEST',value:100},
+            file:{template: 'file2',nameObj:'man',name1:'bob',age:33,job:'programmer'},
+        },
+
+
     }
 }

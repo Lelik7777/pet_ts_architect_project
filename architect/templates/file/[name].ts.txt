@@ -1,1 +1,2 @@
-console.log('some text ')
+
+export const {{constName}}={{value}};
