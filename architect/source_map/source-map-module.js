@@ -1,0 +1,13 @@
+module.exports={
+    aliases:{
+        rs:'react-component',
+        s:'store',
+        i:'index',
+    },
+    map:{
+       'test':{
+            file1:'file',
+           file2:'file',
+       }
+    }
+}
