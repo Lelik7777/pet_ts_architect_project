@@ -15,5 +15,8 @@ module.exports = {
         'components/page': {
             Page: {template: 'component', componentName: 'Page'},
         },
+        'custom_input':{
+            Input:{template:'input',type:'text'}
+        }
     }
 }

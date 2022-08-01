@@ -1,3 +1,12 @@
 import React from 'react';
-import styles from './style.module.css';
 
+
+type Props={
+{{type}}:string;
+}
+
+export const Input=({{type}}:Props)=>{
+return (
+<input type='{{type}}'/>
+);
+}
