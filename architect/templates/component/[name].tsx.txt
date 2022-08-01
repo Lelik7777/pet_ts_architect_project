@@ -1,0 +1,12 @@
+import React from 'react';
+import styles from './styles.module.css';
+
+type Props={
+className?:string;
+}
+
+const {{componentName}}:React.FC<Props>=({className})=>{
+return (<div className={className}></div>);
+}
+
+export default {{componentName}};

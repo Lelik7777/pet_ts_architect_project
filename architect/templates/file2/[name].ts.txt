@@ -3,4 +3,5 @@ export const {{nameObj}}={
 name:`{{name1}}`,
 age:{{age}},
 job:'{{job}}',
+teamLead:{{teamLead}}
 }
