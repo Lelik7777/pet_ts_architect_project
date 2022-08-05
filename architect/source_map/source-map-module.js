@@ -10,13 +10,13 @@ module.exports = {
             file: {template: 'file2', nameObj: 'user', name1: 'bob', age: 33, job: 'programmer', teamLead: true},
         },
         'components/user': {
-            User: {template: 'component', componentName: 'User'},
+            User : {template: 'component', componentName: 'User'},
         },
         'components/page': {
-            Page: {template: 'component', componentName: 'Page'},
+            PageMain: {template: 'component', componentName: 'page name '},
         },
         'custom_input':{
-            Input:{template:'input',type:'text'}
+            input:{template:'input',type:'text'}
         }
     }
 }
